@@ -1,0 +1,12 @@
+package com.aircode.modules.shi.repository;
+
+import com.aircode.modules.shi.domain.GameShi;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+
+/**
+* @author Zeta
+* @date 2020-02-28
+*/
+public interface GameShiRepository extends JpaRepository<GameShi, Integer>, JpaSpecificationExecutor<GameShi> {
+}
